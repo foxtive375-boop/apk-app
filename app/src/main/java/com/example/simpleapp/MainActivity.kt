@@ -1,7 +1,7 @@
 package com.example.simpleapp
 
 import android.os.Bundle
-import android.widget.Toast
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.simpleapp.databinding.ActivityMainBinding
 
@@ -14,7 +14,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.actionButton.setOnClickListener {
-            Toast.makeText(this, "Button tapped", Toast.LENGTH_SHORT).show()
+            binding.greetingText.text = getString(R.string.greeting_text)
+            binding.greetingText.visibility = View.VISIBLE
         }
     }
 }
