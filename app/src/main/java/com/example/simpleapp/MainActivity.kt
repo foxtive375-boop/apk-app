@@ -14,7 +14,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.actionButton.setOnClickListener {
-            binding.greetingText.text = getString(R.string.greeting_text)
+            val name = binding.messageInput.text?.toString()?.trim().orEmpty()
+            val displayName = if (name.isEmpty()) "there" else name
+            binding.greetingText.text = getString(R.string.greeting_format, displayName)
             binding.greetingText.visibility = View.VISIBLE
         }
     }
