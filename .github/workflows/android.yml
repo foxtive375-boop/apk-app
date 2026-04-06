@@ -31,7 +31,7 @@ jobs:
         uses: gradle/actions/wrapper-validation@v4
 
       - name: Build Debug APK
-        run: ./gradlew :app:assembleDebug
+        run: ./gradlew :app:assembleDebug --no-daemon --stacktrace
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
