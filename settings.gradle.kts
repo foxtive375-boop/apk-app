@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "SimpleAndroidApp"
+rootProject.name = "DominoFeverOffline"
 include(":app")

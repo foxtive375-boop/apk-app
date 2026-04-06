@@ -1,8 +1,4 @@
 <resources>
-    <string name="app_name">Simple App</string>
-    <string name="headline">APK Playground</string>
-    <string name="subhead">A clean, modern starter with a friendly touch.</string>
-    <string name="hint_message">Type anything…</string>
-    <string name="action_label">Show Greeting</string>
-    <string name="greeting_format">Hello, %1$s</string>
+    <string name="app_name">Domino Fever Offline</string>
+    <string name="status_idle">Выберите режим и начните матч.</string>
 </resources>

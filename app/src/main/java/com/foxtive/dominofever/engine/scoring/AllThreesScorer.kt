@@ -1,0 +1,12 @@
+package com.foxtive.dominofever.engine.scoring
+
+class AllThreesScorer : ModeScorer {
+    override fun movePoints(openEndsSum: Int): Int = if (openEndsSum % 3 == 0) openEndsSum else 0
+
+    override fun finishPointsWhenDominoOut(opponentPips: Int): Int = opponentPips - (opponentPips % 3)
+
+    override fun finishPointsWhenBlocked(winnerPips: Int, loserPips: Int): Int {
+        val diff = (loserPips - winnerPips).coerceAtLeast(0)
+        return diff - (diff % 3)
+    }
+}

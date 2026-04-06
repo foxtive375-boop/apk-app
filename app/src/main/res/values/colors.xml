@@ -1,8 +1,21 @@
 <resources>
-    <color name="purple_500">#6200EE</color>
-    <color name="purple_700">#3700B3</color>
-    <color name="teal_200">#03DAC5</color>
-    <color name="teal_700">#018786</color>
-    <color name="black">#000000</color>
-    <color name="white">#FFFFFF</color>
+    <color name="colorPrimary">#0D6E6E</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorPrimaryContainer">#9FE8E5</color>
+    <color name="colorOnPrimaryContainer">#002020</color>
+    <color name="colorSecondary">#745A00</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="colorBackground">#103228</color>
+    <color name="colorOnBackground">#F6FFF8</color>
+    <color name="colorSurface">#1A4338</color>
+    <color name="colorOnSurface">#F6FFF8</color>
+    <color name="felt_dark">#1D5B4D</color>
+    <color name="felt_light">#3A8A73</color>
+    <color name="domino_face">#FFF8E8</color>
+    <color name="domino_stroke">#3E3020</color>
+    <color name="pip">#191512</color>
+    <color name="endpoint">#FBCB6C</color>
+    <color name="endpoint_active">#FFEEAF</color>
+    <color name="hand_playable">#6CCB72</color>
+    <color name="hand_selected">#F59B42</color>
 </resources>
